@@ -1,1 +1,1 @@
-# group-3
+# psychology-project
