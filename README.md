@@ -7,4 +7,3 @@ Or watch psychology videos.
 Or buy the psychology books that are introduced.
 And we created this site only with HTML
 
-
