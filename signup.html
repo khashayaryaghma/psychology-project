@@ -19,14 +19,15 @@
         <a href="videos.html">videos</a>
         <a href="books.html">books</a>
     </nav>
+    <hr>
 </header>
-    
+    <form action="" method="post">
     <h2>sign up</h2>
     
     <input type="text" name="user name" placeholder="username"><br><br>
-    <input type="text" name="email address" placeholder="email"><br><br>
-    <input type="text" name="password" placeholder="password"><br><br>
-    <input type="text" name="current password" placeholder="current password"><br><br>
+    <input type="email" name="email address" placeholder="email"><br><br>
+    <input type="password" name="password" placeholder="password"><br><br>
+    <input type="password" name="current password" placeholder="current password"><br><br>
     
     <label for="Date of Birth">Date of Birth:</label>
     
@@ -37,14 +38,36 @@
         <option value="">--Please choose an option--</option>
         <option value="Male">Male</option>
         <option value="Female">Female</option>
-    
+        <option value="none">I prefer not to say</option>
     </select><br><br>
-    <input type="checkbox" name="checkbox">
+    <input type="checkbox" name="checkbox" id="checkbox">
     
-    <label for="">remember me</label>
+    <label for="checkbox">remember me</label>
     <br><br>
     
-    <button class="sign in" type="button">sign in</button>
-    <button class="sign up" type="button">sign up</button>
+    <a href="signin.html"><button class="sign in" type="button">sign in</button></a>
+    <button class="sign up" type="submit">sign up</button>
+        </form>
+    <footer>
+        <hr>
+        <a href="#">About us</a>
+
+        <br>
+        <br>
+        <i class="fab fa-telegram-plane"> <a href="#"><strong>Telegram</strong></a></i>
+        &#160
+        <i class="fas fa-envelope"><a href="#"><strong>Message</strong></a></i>
+        &#160
+        <i class="fab fa-instagram"><a href="#"><strong>Instagram</strong></a></i>
+        &#160
+        <i class="fab fa-whatsapp"><a href="#"><strong>Whatsapp</strong></a></i>
+
+        <p>© 2021 Psychology for group 3</p>
+
+
+    </footer>
+    
+    <script src="https://kit.fontawesome.com/b794f43379.js" crossorigin="anonymous"></script>
+        
 </body>
 </html>
